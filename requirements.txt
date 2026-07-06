@@ -1,7 +1,5 @@
 fastapi
 uvicorn
 transformers
-torch
-torchvision
-numpy
+torch==2.1.0+cpu
 pydantic

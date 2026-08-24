@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install fastapi uvicorn pydantic numpy<2 transformers==4.37.0
+          pip install fastapi uvicorn pydantic numpy transformers==4.37.0
 
       - name: Check app imports correctly
         run: |
